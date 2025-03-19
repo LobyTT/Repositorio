@@ -1,0 +1,128 @@
+body {
+    background-color: #cebbdf;
+}
+
+#banner{
+    vertical-align: top;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+#botoes {
+    width: 320px;
+    height: 50px;
+    background-color: white;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#botoes a {
+    text-decoration: none;
+    color: #6d15a8;
+}
+
+#botoes:hover a {
+    text-decoration: none;
+    color: white;
+}
+#botoes:hover {
+    background-color: #8b24d1;
+    border: 1px solid transparent;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: #6d15a8;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cu {
+    width: 450px;
+    height: auto;
+    border: 2px solid #6d15a8;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+#peto {
+    margin: 0 auto;
+}
+
+#cucu {
+    width: 450px;
+    height: auto;
+}
+
+#tetu p {
+    text-align: left;
+}
+
+#tetu {
+    width: 500px;
+    height: auto;
+}
+
+fieldset {
+    border: 1px solid transparent;
+}
+
+footer img{
+    width: 150px;
+    height: 150px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 70px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+footer p  {
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#tetu button {
+    width: 150px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #fa3a3a;
+    padding: 10px 27px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+#tetu button a {
+    color: white;
+    text-decoration: none;
+}
+#tetu button:hover {
+    text-align: center;
+    color: white;
+    background: #cb2b2b;
+    border: 1px solid transparent;
+}
