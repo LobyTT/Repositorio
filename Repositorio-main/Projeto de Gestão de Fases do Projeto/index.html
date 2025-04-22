@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Projetos</title>
+    <!--Todo o codigo foi feito por Estevan e Alex-->
+</head>
+<body>
+    <h1>Gestão de Fases de Sistemas</h1>
+    <h2>Adicionar Nova Fase</h2>
+
+    <form>
+        <label for="nome">Nome da Fase do Projeto</label>
+        <input type="text" id="nome" required>
+        <br>
+        <br>
+        <label for="descricao">Descrição:</label>
+        <br>
+        <br>
+        <textarea id="descricao" rows="4" cols="30" required> </textarea>
+        <br>
+        <br>
+    <label for="status">Status da Fase do Perojeto</label>
+    <br>
+    <select id="status">
+        <option value="a fazer">A ser feito</option>
+        <option value="realizado">Realizado</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Adicionar Fase do Projeto</button>
+    </form>
+    <h2>&#x2705; Fases do Projeto a serem feitos</h2>
+    <ul id="listaRealizadas"></ul>
+    <h2>&#x2705; Fases do Projeto realizados</h2>
+    <ul id="listaRealizadas"></ul>
+    <script>
+        const form = document.getElementById('fornecedores');
+        const listaAFazer = document.getElementById('listaAFazer');
+        const listaRealizados = document.getElementById('listaRealizados');
+        form.addEventListener ('submit', function(evento){
+            evento.preventDefault();
+            const nome = document.getElementById('nome').value;
+            const descricao = document.getElementById('descricao').value;
+            const status = document.getElementById('status').value;
+
+            const item = document.createElement('li');
+            item.textContent = `${nome}: ${descricao}`;
+
+            if (status === 'a_fazer'){
+                listaAFazer.appendChild(item);
+            }else {
+                listaRealizados.appendChild(item);
+            }
+            form.reset();
+        });
+    </script>
+</body>
+</html>

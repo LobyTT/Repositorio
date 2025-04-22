@@ -1,0 +1,44 @@
+header {
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+.oi {
+    margin: 0px 330px 0px 330px;
+}
+
+#borda {
+    position: fixed;
+    width: 1370px;
+    height: auto;
+    align-items: center;
+    z-index: -1000;
+}
+
+#core {
+    border: #ff0000 solid 2px;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 600px;
+    height: 337.5px;
+    border: 2px solid #ff0000;
+    border-radius: 15px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Saiba mais sobre o nosso pet shop.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CanisPet Sobre Nos</title>
+    <link rel="stylesheet" href="CSS/PETN.css">
+
+</head>
+<body>
+    <center><table>
+        <center><img id="banner" src="IMAGENS/pp.jpeg"></center>
+        <button id="botoes"><a href="PETN.html"> SOBRE NOS</a></button>
+        <button id="botoes"><a href="PETP.html"> NOSSOS PRODUTOS</a></button>
+        <button id="botoes"><a href="PETS.html"> NOSSOS SERVIÇOS</a></button>
+        <button id="botoes"><a href="PETC.html"> CADASTRO</a></button>
+        </table></center>
+</center>
+<center>
+   <main>
+    <p>Esta é uma mensagem acessível para pessoas deficientes visuais</p>
+    <button onclick="lerMensagem()" aria-label="Ouvir a mensagem">Ouvir mensagem</button>
+    <div id="mensagem" class="oi">
+        <br>
+        <h1>🐾Sobre Nós🐾</h1>
+        <br>
+        <p>
+            <h3>Somos uma pet shop comprometida em oferecer serviços de alta qualidade para os seus pets.
+Fundada em 13 de maio de 2019 por um grupo de seis amigos apaixonados por animais - Pedro, Raphael, Estevan, Alex, Rodarde e Arthur - nossa loja está dedicada a fornecer um ambiente acolhedor e seguro para os seus companheiros de quatro patas.</h3> 
+    </p>
+        <h1>🐾SERVIÇOS🐾</h1>
+        <br>
+        <p>
+        <h3>Nossos Serviços
+            Nossa pet shop oferece uma variedade de serviços para atender às necessidades dos seus pets, incluindo:
+            
+            <p id="oi">- Banho e tosa</p>
+            <p id="oi">- Produtos de banho para venda</p>
+            <p id="oi">- Rações e alimentos de alta qualidade</p>
+            <p id="oi">- Brinquedos e acessórios para pets</p>
+            <p id="oi">- Utensílios e suprimentos para o cuidado dos seus pets</p>
+        </h3>
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>🐾MISSÃO🐾</h1>
+        <br>
+        <p>
+            <h3> Nossa missão é fornecer um serviço excepcional e criar um ambiente onde os pets sejam tratados com amor, respeito e cuidado.
+                Estamos comprometidos em ajudar os proprietários de pets a manter seus companheiros saudáveis e felizes.
+            </h3>
+        </p>
+    </main>
+</center>
+<center>
+    </div>
+<table>
+    <h1>🐾Nossas Lojas🐾</h1>
+    <br>
+<tr>
+    <th>
+<fieldset>
+<img src="Imagens/Imagem do WhatsApp de 2025-03-11 à(s) 14.08.59_6af75c2f.jpg" alt="">
+<h2>CEP: 6870021</h2>
+<h2>RUA: Travessa Antônio Ferreira</h2>
+<h2>BAIRRO: Guatinir</h2>
+<h2>CIDADE: Belo Horizonte</h2>
+<h2>ESTADO: MG</h2>
+</fieldset>
+    </th>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <th>
+    <fieldset>
+<img src="Imagens/Imagem do WhatsApp de 2025-03-10 à(s) 14.28.11_1fd530d9.jpg" alt="">
+<h2>CEP: 04545005</h2>
+<h2>RUA: Rua das Fiandeiras</h2>
+<h2>BAIRRO: Vila Olímpia</h2>
+<h2>CIDADE: Santa Luzia</h2>
+<h2>ESTADO :MG</h2>
+</fieldset>
+    </th>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <th>
+<fieldset>
+<img src="Imagens/Imagem do WhatsApp de 2025-03-10 à(s) 14.27.08_0b43c640.jpg" alt="">
+<h2>CEP: 95670000</h2>
+<h2>RUA: Avenida São João</h2>
+<h2>BAIRRO: Vila Joana</h2>
+<h2>CIDADE: Contagem</h2>
+<h2>ESTADO: MG</h2>
+</fieldset>
+    </th>
+</tr>
+</table>
+</center>
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+    <a href="https://www.instagram.com/cani_spet/" target="_blank" rel="noopener noreferrer">
+        <img src="Imagens/pngwing.com.png"></img>
+        <p>Instagram</p>
+    </a>
+
+    <a href="https://www.google.com.br/maps/preview" target="_blank" rel="noopener noreferrer">
+        <img src="Imagens/PONTO 2.png.png"></img>
+        <p>Local</p>
+    </a>
+
+</footer>
+
+<script>
+    function lerMensagem(){
+    const texto = document.getElementById("mensagem").textContent;
+    const fala = new SpeechSynthesisUtterance(texto);
+    fala.lang="pr-Br";
+    speechSynthesis.speak(fala);
+}
+</script>
+</body>
+</html>

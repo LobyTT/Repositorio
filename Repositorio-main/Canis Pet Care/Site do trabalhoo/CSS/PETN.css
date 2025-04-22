@@ -1,0 +1,102 @@
+body {
+    background-color: #cebbdf;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  color: rgb(222, 202, 245);
+  text-decoration: none;
+
+}
+
+p{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h3{width: 900px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(49, 15, 59);
+}
+
+footer img{
+    width: 150px;
+    height: 150px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+footer a{
+    margin: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer p  {
+    margin-top: 2px;
+}
+
+#banner{
+    vertical-align: top;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+#botoes{
+    width: 320px;
+    height: 50px;
+    background-color: white;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+#botoes a{
+    text-decoration: none;
+    color: #6d15a8;
+}
+
+#botoes:hover a{
+    text-decoration: none;
+    color: white;
+}
+#botoes:hover{
+    background-color: #8b24d1;
+    border: 1px solid transparent;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: #6d15a8;
+}
+
+fieldset {
+    width: 300px;
+    height: 600px;
+    border: 1px solid transparent;
+}
+
+fieldset img {
+    height: 390px;
+    width: 390px;
+}
+
+#oi {
+    text-align: left;
+}

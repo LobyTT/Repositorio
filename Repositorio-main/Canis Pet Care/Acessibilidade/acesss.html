@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINTO</title>
+    <link rel="stylesheet" href="acesss.css">
+</head>
+<body>
+    <div id="borda"><img id="borda" src="borda.png"></div>
+    <header><center>CORE</center></header>
+    <div id="mensagem" class="oi">
+    <p>Esta é uma mensagem acessível para pessoas deficientes visuais</p>
+    <button onclick="lerMensagem()" aria-label="Ouvir a mensagem">Ouvir mensagem</button>
+    <br>
+    <h1 id="titulo"><center>Sobre o Core</center></h1>
+    <table>
+        <tr>
+            <th>
+                <p>Henrique Marangon, ou Core, é um criador de conteúdo do YouTube do canal Core (anteriormente Core das Antigas). Começou a trabalhar na plataforma em 2013, focado em vídeos de jogos antigos e RPGs e atualmente independentes.                    
+                Em 2015, aproveitou a onda de Undertale para poder focar 100% do seu tempo no seu trabalho na internet, flexibilizando seu formato, o Core conseguiu muitas visualizações e conquistou um novo público e utilizou do sucesso de Undertale para falar sobre vários jogos de RPG e independentes, criando uma nova onda de vídeos no seu canal.</p>
+            </th>
+            <th>
+                <img id="core" src="core.jpg">
+            </th>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>
+                <img src="content_pic.png">
+            </th>
+            <th>
+                <p>Se encontrando nesse meio de jogos independentes que fomentam várias teorias, Core passou a cobrir conteúdo relacionado a jogos como Five Nights at Freddy's, Doki Doki Literature Club e Bendy and the Ink Machine.
+
+
+                    Atualmente, ele grava vídeos de diversos conteúdos, principalmente de Five Nights at Freddy, Poppy Play Time e Friday Night Funkin.</p>
+            </th>
+        </tr>
+    </table>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Z0IlRsW3teI?si=03SEJ6_SO2TkYjcG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+</div>
+
+<script>
+
+function lerMensagem(){
+    const texto = document.getElementById("mensagem").textContent;
+    const fala = new SpeechSynthesisUtterance(texto);
+    fala.lang="pr-Br";
+    speechSynthesis.speak(fala);
+
+
+}
+
+</script>
+</body>
+</html>
